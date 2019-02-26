@@ -1,0 +1,62 @@
+body {
+        color: rgb(128,0,64);
+        font-family:"monotype corsiva";
+        font-style: normal;
+        font-variant: normal;
+        margin: 20px;
+        background-color: lightblue;
+}
+div {
+      min-height: 30vh;
+      width: 80vw
+}
+h1, h2{
+        text-align: center;
+        font-size: 2em
+}
+
+h1{
+    font-variant: small-caps;
+    font-size: 5em
+}
+h2{
+  font-family: "times new roman";
+  font-variant: small-caps;
+  font-style: italic;
+  color: darkblue
+}
+img{
+    display:flex;
+    padding: 60px;
+    margin: 0 auto;
+    border-radius: 60px 130px 60px 130px
+}
+borderimg{
+          border: 10px solid transparent;
+          padding: 15px;
+          border-image:"border.svg" 30 round;
+}
+a {
+  color:black;
+}
+
+ol{
+  list-style: circle;
+  padding: 20;
+  color: darkblue
+}
+
+ul{
+  list-style: circle;
+  padding: 20;
+  color: darkblue;
+}
+
+div.contrast {
+  background-color: darkblue
+  color:rgb (255, 255, 255)
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
